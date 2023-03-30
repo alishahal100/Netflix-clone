@@ -1,0 +1,73 @@
+
+.navbar-in{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; 
+    background: none;
+}
+.logo-in{
+    position: fixed;
+    left: 150px;
+    width: 150px;
+   
+    
+}
+.inp{
+    width: 250px;
+    height: 30px;
+    background: #ed2c2c11;
+    border-radius: 5px;
+    border: 1px solid white;
+    z-index: 1;
+    padding: 10px;
+    cursor: auto;
+    position: relative;
+    z-index: 2;
+    color: white;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .inp::placeholder{
+    color: white;
+  }
+
+
+  .btn-3{
+    margin-left: 5px;
+    position: fixed;
+    width: 150px;
+    height: 50px;
+    background: rgb(234, 70, 70);
+    color: azure;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    z-index: 2;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
+    position: relative;
+    margin-top: 20px;
+  }
+  
+  .sign-in{
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+   display: flex;
+   flex-direction: column;
+   gap: 8px;
+   z-index: 2;
+   position: relative;
+   
+  }
+  
+  
